@@ -1,0 +1,8 @@
+<div>
+  <h1>Number to Words!</h1>
+
+  <label>Please enter amount:</label>
+  <input type="text" id="amount" [(ngModel)]="amount" maxlength="9" />
+  <br />
+  <span class="amount">{{ amount | n2w }}</span>
+</div>
